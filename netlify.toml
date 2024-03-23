@@ -5,7 +5,7 @@
   environment = { NODE_VERSION = "18", NODE_ENV = "production" }
 
 [[redirects]]
-  from = "/api"
+  from = "/ackee/api"
   to = "/.netlify/functions/api"
   status = 200
   force = true
